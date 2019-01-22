@@ -1,0 +1,20 @@
+{
+  "name": "geobuf-file",
+  "version": "0.0.1",
+  "description": "Read or write a geobuf file",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Steve Bennett <me@stevebennett.me> (http://stevebennett.me)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "geobuf": "^3.0.1",
+    "pbf": "^3.1.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^7.0.1",
+    "jest": "^23.6.0"
+  }, "files": [ "index.js", "index.test.js", "test/*" ],
+  "keywords": ["geobuf", "geojson", "conversion" ]
+}
