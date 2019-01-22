@@ -1,6 +1,6 @@
 {
   "name": "geobuf-file",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Read or write a geobuf file",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,15 @@
   "devDependencies": {
     "fs-extra": "^7.0.1",
     "jest": "^23.6.0"
-  }, "files": [ "index.js", "index.test.js", "test/*" ],
-  "keywords": ["geobuf", "geojson", "conversion" ]
+  },
+  "files": [
+    "index.js",
+    "index.test.js",
+    "test/*"
+  ],
+  "keywords": [
+    "geobuf",
+    "geojson",
+    "conversion"
+  ]
 }
