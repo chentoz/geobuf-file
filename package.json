@@ -1,6 +1,6 @@
 {
   "name": "geobuf-file",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read or write a geobuf file",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
   "dependencies": {
     "geobuf": "^3.0.1",
     "pbf": "^3.1.0"
-  }, "repository": "stevage/geobuf-file",
+  },
+  "repository": "stevage/geobuf-file",
   "devDependencies": {
     "fs-extra": "^7.0.1",
     "jest": "^23.6.0"
